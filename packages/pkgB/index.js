@@ -5,7 +5,7 @@ function featureX(s) {
 }
 
 function featureY(s) {
-    return 'featureY: ' + s;
+    return 'featureY ++ enhance: ' + s;
 }
 
 module.exports = featureY( 'pkgB');
