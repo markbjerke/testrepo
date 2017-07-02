@@ -1,0 +1,17 @@
+{
+  "name": "@ishiptest/pkgb",
+  "version": "1.0.0",
+  "description": "test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "prepublish": "node ../../scripts/prepublish --pkg=@ishiptest/pkgb"
+  },
+  "author": "iship",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markbjerke/testrepo.git"
+  }
+
+}
