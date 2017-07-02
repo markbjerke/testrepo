@@ -1,7 +1,11 @@
 ﻿
 
 function featureX(s) {
+    return 'featureX: ' + s;
+}
+
+function featureY(s) {
     return 'featureY: ' + s;
 }
 
-module.exports = featureX( 'pkgB');
+module.exports = featureY( 'pkgB');
